@@ -1,0 +1,50 @@
+
+.container {
+   margin: 10px;
+}
+
+.grid-container{
+   display: flex;
+}
+
+.grid-flex-90{
+   width: 90%;
+}
+
+.grid-flex-10{
+   width: 10%;
+   text-align: center;
+}
+
+.search-grid{
+  display: flex;
+}
+
+.grid-flex {
+   flex-basis: 45%;
+   padding: 5px;
+}
+
+.input-form{
+   width: 100%;
+ }
+
+ .grid-search{
+   display: flex;
+   justify-content: center;
+   padding: 5px;
+   width: 10%;
+ }
+
+ .titulo{
+   margin-left: 1.3rem;
+   margin-top: 2rem;
+   font-size: 2rem;
+ }
+
+ .card {
+   padding: 4px;
+ }
+ .btn-table {
+   margin: 2px;
+ }

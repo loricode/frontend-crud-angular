@@ -1,0 +1,73 @@
+<mat-toolbar>
+  <button
+    (click)="irHome()"
+    mat-icon-button
+    class="example-icon"
+    aria-label="Example icon-button with menu icon"
+  >
+    <mat-icon>menu</mat-icon>
+  </button>
+  <span>Crud</span>
+</mat-toolbar>
+
+<div style="margin-left: 0.5rem; display: flex; align-items: center;">
+    <button (click)="regresar()" mat-mini-fab aria-label="Example icon button with a home icon">
+      <mat-icon>home</mat-icon>
+    </button>
+   <h3 class="titulo">Mantenimiento Usuarios</h3>
+
+</div>
+
+<hr />
+
+<div class="container">
+  <form class="formulario" [formGroup]="usuarioForm" (ngSubmit)="usuarioSubmit()">
+    <mat-card class="card">
+      <mat-card-content>
+        <div>
+          <mat-form-field class="input-form" appearance="outline">
+            <input
+            formControlName="nombre"
+            type="text" matInput placeholder="Nombre" />
+          </mat-form-field>
+        </div>
+
+        <div>
+          <mat-form-field class="input-form" appearance="outline">
+            <input 
+            formControlName="identificacion"
+            type="text" matInput placeholder="Identificacion" />
+          </mat-form-field>
+        </div>
+
+        <div>
+          <mat-form-field class="input-form" appearance="outline">
+            <input
+            formControlName="email"
+            type="email" matInput placeholder="Email" />
+          </mat-form-field>
+        </div>
+
+        <div>
+          <mat-form-field class="input-form" appearance="outline">
+            <input 
+              formControlName="telefono"
+              type="text" matInput placeholder="Telefono" />
+          </mat-form-field>
+        </div>
+      </mat-card-content>
+
+      <mat-card-actions align="end">
+        <button
+          type="submit"
+          class="input-form"
+          mat-raised-button
+          mat-button
+          color="primary"
+        >
+          Guardar
+        </button>
+      </mat-card-actions>
+    </mat-card>
+  </form>
+</div>

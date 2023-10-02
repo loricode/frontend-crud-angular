@@ -1,0 +1,16 @@
+.custom-card{
+   max-width: 400px;
+   flex-basis: 100%;
+ }
+
+ .login-page{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  height: 100vh;  
+ }
+
+ .input-form{
+   width: 100%;
+ }

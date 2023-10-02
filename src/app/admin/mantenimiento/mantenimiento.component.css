@@ -1,0 +1,22 @@
+.container {
+   margin: 10px;
+}
+
+.titulo{
+   margin-left: 1.3rem;
+   margin-top: 1.1rem;
+   font-size: 2rem;
+ }
+
+ .grid{
+   padding: 4px;
+ }
+
+.input-form{
+   width: 100%;
+ }
+
+ .card {
+   padding: 4px;
+ }
+ 
